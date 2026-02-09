@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parshivi Engineering & Consultancy</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333;}
+    header {
+      background: url('banner.jpg') no-repeat center center/cover; 
+      color:#fff; 
+      padding:100px 20px; 
+      text-align:center;
+      position: relative;
+    }
+    header::after {
+      content:"";
+      position:absolute;
+      top:0; left:0; right:0; bottom:0;
+      background:rgba(31,60,136,0.7); /* Blue overlay */
+    }
+    header h1, header p, .cta-buttons {
+      position: relative;
+      z-index: 1;
+    }
+    header h1 {margin:0; font-size:48px;}
+    header p {font-size:20px; margin-top:10px;}
+    .cta-buttons {margin-top:20px;}
+    .cta-buttons a {
+      background:#ffcc00; color:#1f3c88; padding:12px 25px; 
+      margin:10px; text-decoration:none; font-weight:bold; border-radius:5px;
+      transition:0.3s;
+    }
+    .cta-buttons a:hover {background:#ffc107; color:#000;}
+    nav {background:#333; padding:10px; text-align:center;}
+    nav a {color:#fff; margin:0 15px; text-decoration:none;}
+    section {padding:40px; max-width:1000px; margin:auto;}
+    h2 {color:#1f3c88;}
+    footer {background:#1f3c88; color:#fff; text-align:center; padding:20px; margin-top:40px;}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parshivi Engineering & Consultancy</h1>
+    <p>Engineering Tomorrow, Today</p>
+    <div class="cta-buttons">
+      <a href="#services">Explore Services</a>
+      <a href="#contact">Get in Touch</a>
+    </div>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Parshivi is a multidisciplinary engineering & consultancy firm specializing in electrical and civil systems. 
+    We deliver innovative, sustainable, and cost-effective solutions for infrastructure and industrial projects.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>We provide expertise in Electrical Engineering, Civil Engineering, and Consultancy to help clients achieve excellence in their projects.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@parshivi.com | Phone: +91-XXXXXXXXXX</p>
+    <p>Address: Lucknow, Uttar Pradesh, India</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Parshivi Engineering & Consultancy | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
